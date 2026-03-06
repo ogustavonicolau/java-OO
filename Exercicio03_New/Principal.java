@@ -1,8 +1,6 @@
 package Exercicio03_New;
 
-import javax.sound.sampled.SourceDataLine;
-
-public class Principal {
+public class Principal{
 
     public static void main(String[] args) {
 
