@@ -23,7 +23,6 @@ Também existe a pasta:
 
 - `evidencias`
 
-Neste exercício não é necessário salvar prints.
 Você deverá copiar e colar o resultado da execução no arquivo .md ou no caderno e responder as perguntas.
 
 ---

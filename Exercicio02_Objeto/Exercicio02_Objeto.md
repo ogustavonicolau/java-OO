@@ -22,6 +22,6 @@ Também existe a pasta:
 
 - `evidencias`
 
-É dentro da pasta `evidencias` que você deverá salvar os prints solicitados em cada atividade.
+Você deverá copiar e colar o resultado da execução no arquivo .md ou no caderno e responder as perguntas.
 
 ---
