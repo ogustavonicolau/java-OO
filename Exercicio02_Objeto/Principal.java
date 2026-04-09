@@ -11,6 +11,10 @@ public class Principal {
         System.out.println("Exercicio 02 - Objeto criado com sucesso.");
         System.out.println("Esse objetoAluno é um Aluno real (instancia) criado a partir da classe Aluno.");
 
+        Aluno objetoAluno2 = new Aluno();
+
+        System.out.println(objetoAluno2);
+
     }
 
 }
