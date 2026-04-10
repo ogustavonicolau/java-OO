@@ -32,6 +32,14 @@ public class Principal{
         System.out.println(a2.nome);
         System.out.println(a3.nome);
 
+        System.out.println(a1.nome + "-" + a1.idade);
+        System.out.println(a2.nome + "-" + a2.idade);
+        System.out.println(a3.nome + "-" + a3.idade);
+
+        System.out.println(a1);
+        System.out.println(a2);
+        System.out.println(a3);
+
 
     }
 

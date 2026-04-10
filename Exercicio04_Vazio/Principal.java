@@ -14,6 +14,20 @@ public class Principal {
         System.out.println("nome (String) = " + aluno.nome);
         System.out.println("idade (int)   = " + aluno.idade);
 
+        Aluno aluno2 = new Aluno();
+
+        aluno2.nome = "Maria";
+        aluno2.idade = 19;
+
+        aluno2.estudar();
+        aluno.estudar();
+
+        aluno.nome = "Gustavo";
+        aluno.idade = 26;
+
+        aluno.fazerProva();
+        aluno2.fazerProva();
+
     }
 
 }
