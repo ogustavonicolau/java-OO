@@ -15,6 +15,21 @@ public class Principal {
 
         System.out.println(objetoAluno2);
 
+        objetoAluno.nome = "Maria";
+        objetoAluno.idade = 18;
+
+        System.out.println(objetoAluno.nome);
+        System.out.println(objetoAluno.idade);
+
+        objetoAluno2.nome = "Pedro";
+        objetoAluno2.idade = 22;
+
+        System.out.println(objetoAluno2.nome);
+        System.out.println(objetoAluno2.idade);
+
+        System.out.println(objetoAluno);
+        System.out.println(objetoAluno2);
+
     }
 
 }
