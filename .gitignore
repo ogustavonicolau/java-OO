@@ -12,3 +12,11 @@ out/
 # arquivos do sistema
 .DS_Store
 Thumbs.db
+
+# respotas exercicios
+Exercicio01_Classe/Resposta_Exercicio_01.md
+Exercicio02_Objeto/Resposta_Exercicio_02.md
+Exercicio03_New/Resposta_Exercicio_03.md
+Exercicio04_Vazio/Resposta_Exercicio_04.md
+Exercicio05_Preencher/Resposta_Exercicio_05.md
+Exercicio06_Ler_Atributos/Resposta_Exercicio_06.md
