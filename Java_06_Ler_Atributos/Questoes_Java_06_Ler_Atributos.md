@@ -10,7 +10,9 @@
 
 **Cole a saida do terminal abaixo.**
 
-```text
+```
+Maria
+20
 
 ```
 
@@ -18,11 +20,11 @@
 
 **O que significa ler um atributo?**
 
-R.
+R. Significa ler as características do objeto
 
 **Qual atributo foi lido em cada `println`?**
 
-R.
+R. nome e idade do objeto Aluno
 
 ---
 
@@ -40,6 +42,8 @@ R.
 **Cole a nova saida abaixo.**
 
 ```text
+Ana
+17
 
 ```
 
@@ -47,11 +51,11 @@ R.
 
 **O que mudou na leitura dos atributos?**
 
-R.
+R. Mudou os valores
 
 **Por que a saida mudou?**
 
-R.
+R. Por que as características do objeto foram modificadas
 
 ---
 
@@ -69,6 +73,8 @@ System.out.println("Idade: " + objetoAluno.idade);
 **Cole o resultado abaixo.**
 
 ```text
+Aluno: Ana
+Idade: 17
 
 ```
 
@@ -76,11 +82,11 @@ System.out.println("Idade: " + objetoAluno.idade);
 
 **Qual e a diferenca entre imprimir apenas o valor e imprimir com texto?**
 
-R.
+R. Ao imprimir apenas o valor, usa-se somente a sintaxe "objeto.atributo", e ao imprimir com texto, deve-se usar o texto entre aspas e o sinal de + seguido pela sintaxe "objeto.atributo"
 
 **O conteudo lido mudou?**
 
-R.
+R. Sim, o texto serviu para dar contexto aos valores
 
 ---
 
@@ -106,18 +112,21 @@ System.out.println(aluno2.idade);
 **Cole a saida completa abaixo.**
 
 ```text
-
+Aluno: Ana
+Idade: 17
+Marcos
+20
 ```
 
 **Responda:**
 
 **Quais valores aparecem antes de preencher?**
 
-R.
+R. null e 0
 
 **Por que esses valores aparecem?**
 
-R.
+R. Porque o objeto foi criado mas seus atributos não foram preenchidos
 
 ---
 
@@ -137,18 +146,21 @@ System.out.println(aluno2.idade);
 **Cole a saida abaixo.**
 
 ```text
-
+Ana
+17
+Marcos
+20
 ```
 
 **Responda:**
 
 **Como a leitura confirma que existem objetos diferentes?**
 
-R.
+R. Mostrando na tela atributos diferentes
 
 **O que aconteceria se ambos os objetos fossem o mesmo?**
 
-R.
+R. Seria lido apenas os atributos do objeto em questão
 
 ---
 
@@ -158,18 +170,18 @@ R.
 
 **O que e ler um atributo em Java?**
 
-R.
+R. Um atributo são as características de um objeto, e ler um atributo significa fazer a leitura e mostrar essas características
 
 **Qual a diferenca entre preencher e ler?**
 
-R.
+R. Ao preencher você da ao objeto suas características, e ao ler, você mostra na tela essas características
 
 **O que significa acessar `objeto.atributo`?**
 
-R.
+R. Significa buscar na memória os valores que você atribuiu ao objeto em questão e mostrá-lo na tela
 
 **O que voce aprendeu neste exercicio?**
 
-R.
+R. Aprendi o conceito de leitura e preenchimento de atributos.
 
 ---
