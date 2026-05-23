@@ -63,4 +63,10 @@ public class Aluno {
         System.out.println("================================");
     }
 
+    //Criando um novo método
+    public double calcularIdadeEmDias() {
+        double dias = idade * 365.0;
+        return dias;
+    }
+
 }

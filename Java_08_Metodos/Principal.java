@@ -60,6 +60,12 @@ public class Principal {
         System.out.println("Métodos VOID: fazem algo mas não retornam nada.");
         System.out.println("Métodos com RETORNO: fazem algo e devolvem um resultado.");
 
+        //Método que calcula a idade em dias
+        System.out.println("\n --- Calculando a idade em dia através do método calcularIdadeEmDias ---");
+
+        double dias = aluno1.calcularIdadeEmDias();
+        System.out.println(aluno1.nome + " tem aproximadamente " + dias + " dias de vida.");
+
     }
 
 }
