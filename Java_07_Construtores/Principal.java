@@ -51,6 +51,25 @@ public class Principal {
         System.out.println("Construtores permitem inicializar o objeto com dados");
         System.out.println("desde o momento da criação, evitando esquecer de preencher.");
 
+        //Criando 3 novos alunos usando construtor parametrizado
+        System.out.println("\n---- Criando 3 novos alunos com construtor parametrizado ---" );
+        Aluno aluno7 = new Aluno("Gustavo", 26);
+        Aluno aluno8 = new Aluno("Vanessa", 21);
+        Aluno aluno9 = new Aluno("Eduardo", 25);
+
+        System.out.println("Nome: " + aluno7.nome + " (" + aluno7.idade + " anos)");
+        System.out.println("Nome: " + aluno8.nome + " (" + aluno8.idade + " anos)");
+        System.out.println("Nome: " + aluno9.nome + " (" + aluno9.idade + " anos)");
+
+        System.out.println("\n --- Criando um novo aluno com construtor vazio e preenchendo depois ---");
+        Aluno aluno10 = new Aluno();
+
+        aluno10.nome = "Luis";
+        aluno10.idade = 20;
+
+        System.out.println("Nome: " + aluno10.nome + " (" + aluno10.idade + " anos)");
+
+
     }
 
 }
