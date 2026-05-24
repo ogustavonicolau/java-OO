@@ -65,6 +65,17 @@ public class Principal {
         System.out.println("Encapsulamento = private (dados protegidos) + getters/setters (controle)");
         System.out.println("Benefício: Garante que os dados do objeto sempre estejam válidos!");
 
+        // Testando a nova validação
+        System.out.println("\n ==== Nova Validação: Nome com limite de 50 caracteres ====");
+        System.out.println("\n Tentando mudar o nome para um nome com mais de 50 caracteres:");
+        aluno1.setNome("Skskskdjsnkdnaisdmsksnsksksdjslsncksdnslskcksnsksskj"); //Será rejeitado
+
+        System.out.println("\n Mudando o nome para 'Gustavo' ");
+        aluno1.setNome("Gustavo"); //Será Aceito
+
+        System.out.println("\n ==== Dados Atualizados ====");
+        aluno1.exibirInfo();
+
     }
 
 }

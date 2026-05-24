@@ -44,6 +44,12 @@ public class Aluno {
             return;
         }
 
+        //Nova validação: Impõe um limite de 50 caracteres
+        if (novoNome.length() > 50) {
+            System.out.println("Erro: Nome deve ter no máximo 50 caracteres!");
+            return;
+        }
+
         // Se passou todas as validações, atribui o novo valor
         this.nome = novoNome;
         System.out.println("Nome atualizado com sucesso!");
