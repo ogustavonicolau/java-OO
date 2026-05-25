@@ -11,14 +11,46 @@
 **Cole a saida completa do terminal abaixo.**
 
 ```text
+=== Exercicio 11 - Estado do Objeto ===
 
+--- Estado inicial de aluno1 ---
+=== Estado do Objeto Aluno ===
+Nome : Maria
+Idade: 20
+Cod. : 0,891144
+==============================
+
+--- Alterando o estado (definirNome) ---
+=== Estado do Objeto Aluno ===
+Nome : Maria Santos
+Idade: 21
+Cod. : 0,891144
+==============================
+
+--- Dois objetos: estados independentes ---
+aluno1 nome : Maria Santos
+aluno2 nome : Carlos
+aluno1 cod. : 0,891144
+aluno2 cod. : 0,536149
+(Codigos diferentes: cada objeto tem seu proprio estado)
+
+--- Ciclo de vida: Garbage Collection ---
+Objeto criado  : Temporario
+Referencia removida (temporario = null)
+O objeto nao tem mais referencia -> pode ser destruido pela JVM.
+System.gc() chamado -> JVM decidira quando coletar.
+
+=== Conclusao ===
+Estado      = valores dos atributos no momento.
+Comportamento = acoes que o objeto realiza (metodos).
+GC          = JVM destroi objetos sem referencia automaticamente.
 ```
 
 **Responda:**
 
 **Os dois `codigoIdentificador` sao iguais? Por que?**
 
-R.
+R. Por que o objeto não foi alterado, somente seus atributos
 
 ---
 
@@ -28,19 +60,19 @@ R.
 
 **O que define o ESTADO de um objeto?**
 
-R.
+R. Os atributos
 
 **Quais sao os atributos que compoem o estado do objeto `Aluno`?**
 
-R.
+R. nome, idade, codigoIdentificador e aleatorio
 
 **O que define o COMPORTAMENTO de um objeto?**
 
-R.
+R. Os métodos
 
 **Liste os metodos de `Aluno` que sao comportamentos:**
 
-R.
+R. definirNome, definirIdade e exibirEstado
 
 ---
 
@@ -58,15 +90,15 @@ aluno1.definirIdade(21);
 
 **Qual era o estado de `aluno1` logo apos a criacao?**
 
-R.
+R. Maria, 20
 
 **Qual era o estado de `aluno1` apos as chamadas de `definirNome` e `definirIdade`?**
 
-R.
+R. Maria Santos, 21
 
 **O `codigoIdentificador` mudou tambem? Por que?**
 
-R.
+R. Não, Porque o objeto continua o mesmo e somente os atributos foram modificados
 
 ---
 
@@ -78,19 +110,19 @@ R.
 
 **O que faz a linha `this.aleatorio = new Random()`?**
 
-R.
+R. Ele cria um novo objeto da classe Random e armazena no atributo "aleatorio"
 
 **O que faz a linha `this.codigoIdentificador = aleatorio.nextDouble()`?**
 
-R.
+R. Ela atribui um número decimal aleatorio ao atributo "codigoIdentificador"
 
 **Por que e util gerar um codigo automatico no construtor?**
 
-R.
+R. Porque isso agiliza o desenvolvimento, diminui as linhas de código e evita erros de digitação
 
 **Execute o programa duas vezes. Os codigos sao iguais ou diferentes entre execucoes?**
 
-R.
+R. Os códigos são diferentes
 
 ---
 
@@ -108,19 +140,19 @@ System.gc();
 
 **O que acontece quando fazemos `temporario = null`?**
 
-R.
+R. A Referencia é removida
 
 **O que e o Garbage Collector (GC)?**
 
-R.
+R. É um "coletor de lixo", é o mecanismo do JVM que identifica e remove objetos que não estão em uso, liberando espaço na memória
 
 **O que faz `System.gc()`? E uma ordem ou uma sugestao?**
 
-R.
+R. É um método que solicita que a JVM execute o Garbage Collector para liberar memória. Uma Sugestão
 
 **O programador pode destruir um objeto manualmente em Java? Por que?**
 
-R.
+R. Não. Porque a gestão de memória é feita de forma automática pela JVM
 
 ---
 
@@ -130,18 +162,18 @@ R.
 
 **O estado de um objeto e definido por ___.**
 
-R.
+R. Atributos
 
 **O comportamento de um objeto e definido por ___.**
 
-R.
+R. Métodos
 
 **Quando um objeto nao tem mais nenhuma referencia apontando para ele, ele ___.**
 
-R.
+R. É nulo
 
 **A palavra `import java.util.Random` serve para ___.**
 
-R.
+R. Importar um classe que permite gerar números aleatórios.
 
 ---
