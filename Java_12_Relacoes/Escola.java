@@ -29,9 +29,9 @@ public class Escola {
     }
 
     // Composicao: Escola cria o Departamento internamente
-    public void criarDepartamento(String nomeDepartamento) {
+    public void criarDepartamento(String nomeDepartamento, Professor professor) {
         if (nrDepartamentos < 10) {
-            departamentos[nrDepartamentos] = new Departamento(nomeDepartamento);
+            departamentos[nrDepartamentos] = new Departamento(nomeDepartamento, professor);
             nrDepartamentos++;
         } else {
             System.out.println("Nao e possivel criar outro Departamento.");

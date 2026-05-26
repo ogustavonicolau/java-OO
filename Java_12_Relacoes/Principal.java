@@ -22,11 +22,17 @@ public class Principal {
             "01310-100"
         );
 
+        //Criando os Professores
+        System.out.println("\n ---- Criando os Professores ----");
+        Professor prof1 = new Professor("Thiago Soares", "Informatica");
+        Professor prof2 = new Professor("Francisco Silva", "Matematica");
+        Professor prof3 = new Professor("Maria Eduarda", "Portugues");
+
         // Composicao: Departamentos criados e gerenciados pela Escola
         System.out.println("\n--- Criando Departamentos (composicao) ---");
-        escola.criarDepartamento("Informatica");
-        escola.criarDepartamento("Matematica");
-        escola.criarDepartamento("Portugues");
+        escola.criarDepartamento("Informatica", prof1);
+        escola.criarDepartamento("Matematica", prof2);
+        escola.criarDepartamento("Portugues", prof3);
         System.out.println("Departamentos criados. Se a Escola for extinta, eles tambem serao.");
 
         // Agregacao: Alunos criados FORA da escola e depois matriculados

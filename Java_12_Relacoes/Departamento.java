@@ -5,15 +5,17 @@ package Java_12_Relacoes;
 public class Departamento {
 
     private String nome;
+    private Professor professor;
 
-    public Departamento(String nome) {
+    public Departamento(String nome, Professor professor) {
         this.nome = nome;
+        this.professor = professor;
     }
 
     public String getNome() { return nome; }
 
     public void exibir() {
-        System.out.println("  Departamento: " + nome);
+        System.out.println("  Departamento: " + nome + " | Professor: " + professor.getNome());
     }
 
 }
