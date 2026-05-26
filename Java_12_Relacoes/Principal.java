@@ -31,9 +31,9 @@ public class Principal {
 
         // Agregacao: Alunos criados FORA da escola e depois matriculados
         System.out.println("\n--- Criando Alunos fora da Escola (agregacao) ---");
-        Aluno aluno1 = new Aluno("Ana Lima", 1001);
-        Aluno aluno2 = new Aluno("Bruno Costa", 1002);
-        Aluno aluno3 = new Aluno("Carla Dias", 1003);
+        Aluno aluno1 = new Aluno("Ana Lima",  1001, 21);
+        Aluno aluno2 = new Aluno("Bruno Costa", 1002, 19);
+        Aluno aluno3 = new Aluno("Carla Dias", 1003, 20);
         System.out.println("Alunos criados independentemente.");
         System.out.println("Se a Escola for extinta, os alunos continuam existindo!");
 
